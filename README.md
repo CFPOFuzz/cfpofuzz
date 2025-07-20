@@ -14,7 +14,7 @@ We assume that the following commands are run in sudo mode.
 
 Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/r/cfpofuzz/cfpofuzz). Please make sure its name is `cfpofuzz/cfpofuzz`.
 ```sh
-$ docker pull cfpofuzz/cfpofuzz:v1
+$ docker pull icse26cfpofuzz/cfpofuzz:v1
 ```
 
 If everything is ok, a `cfpofuzz/cfpofuzz:v1` image should be found in the images listed by `docker images` command. Then, you can create a container of such image and start a Bash session using the following command. An interactive `bash` shell on the container is also executed at the moment.
