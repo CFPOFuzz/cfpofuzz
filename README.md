@@ -12,14 +12,14 @@ The artifact is provided as a docker image, which contains the prototype of the 
 ## Running the artifact
 We assume that the following commands are run in sudo mode. 
 
-Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/r/cfpofuzz/cfpofuzz). Please make sure its name is `cfpofuzz/cfpofuzz`.
+Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/r/icse26cfpofuzz/cfpofuzz). Please make sure its name is `icse26cfpofuzz/cfpofuzz`.
 ```sh
 $ docker pull icse26cfpofuzz/cfpofuzz:v1
 ```
 
-If everything is ok, a `cfpofuzz/cfpofuzz:v1` image should be found in the images listed by `docker images` command. Then, you can create a container of such image and start a Bash session using the following command. An interactive `bash` shell on the container is also executed at the moment.
+If everything is ok, a `icse26cfpofuzz/cfpofuzz` image should be found in the images listed by `docker images` command. Then, you can create a container of such image and start a Bash session using the following command. An interactive `bash` shell on the container is also executed at the moment.
 ```sh
-$ docker run -it cfpofuzz/cfpofuzz:v1
+$ docker run -it icse26cfpofuzz/cfpofuzz:v1
 ```
 
 If all goes well, the container should be running successfully. Otherwise, you can seek help from [Docker Doc](https://docs.docker.com/) if needed. 
