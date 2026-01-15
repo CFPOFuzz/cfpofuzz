@@ -107,6 +107,7 @@ Given the long runtime of the evaluation and the large number of parallel tasks,
 ### Reproduce the experimental results of existing bugs:
 ```bash
 $ cd /home/ubuntu/CFPOfuzz-benchmark
+$ echo core >/proc/sys/kernel/core_pattern
 # python3 run.py  execute time   test rounds
 $ python3 run.py  24  5
 # wait......
